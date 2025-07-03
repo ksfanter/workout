@@ -1,9 +1,14 @@
 h1 {
     font-size: 2em;
     font-weight: bold;
-    color: #333;
+    color: #ffffff;
 }
-
+body {
+    background-color: #29a059;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
 .navbar ul {
     list-style-type: none;
     margin: 0;
@@ -30,12 +35,23 @@ h1 {
 }
 h2 {
     font-size: 1.5em;
-    color: #666;
+    color: #ffffff;
     margin-top: 20px;
 }
 p {
     font-size: 1em;
     line-height: 1.5;
-    color: #444;
+    color: #ffffff;
     margin: 10px 0;
+}
+li {
+    margin: 5px 0;
+    font-size: 1em;
+    color: #ffffff;
+    list-style-type: none;
+}
+title {
+    font-size: 1.2em;
+    color: #ffffff;
+    margin-bottom: 10px;
 }
